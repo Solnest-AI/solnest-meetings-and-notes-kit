@@ -1,0 +1,35 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.token
+tokens.json
+token.json
+credentials/
+keys.env
+session.txt
+cookie.txt
+cookies*
+storage_state.json
+# installed servers and caches
+vendor/
+node_modules/
+.cache/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# browser profiles
+profiles/
+.chrome-profile/
+# os and editors
+.DS_Store
+Thumbs.db
+.cursor/
+# updater state and the installed launcher (never part of a release)
+.update-backup/
+.meetings-and-notes-kit-files.txt
+bin/
+*.update-tmp
+*.bak*
